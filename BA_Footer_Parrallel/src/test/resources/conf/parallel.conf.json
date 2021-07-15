@@ -1,0 +1,47 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "tasmitamanna_7u5YaP",
+  "key": "JnVRNjpKvXsxWZxWcEzh",
+
+  "capabilities": {
+    "build": "Buy_App",
+    "name": "footer",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "env1": {
+      "browser": "chrome"
+    },
+    "env2": {
+      "browser": "firefox"
+    },
+    "env3": {
+      "os": "OS X",
+      "browser": "safari",
+	  "os_version": "Big Sur",
+	  "resolution": "1920x1080",
+	  "browser_version": "14.0"
+    }
+  ,
+  "env4": {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "IE",
+      "resolution": "1920x1080",
+      "browser_version": "11.0"
+    },
+  "env5": {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "Edge",
+      "resolution": "1920x1080",
+      "browser_version": "latest"
+    },
+     "env6": {
+      "browserName": "iPhone",
+      "device": "iPhone 12 Pro Max",
+      "realMobile": "true",
+      "os_version": "14"
+    }
+}}
